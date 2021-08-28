@@ -1,0 +1,25 @@
+.thumbnail-wrapper{
+    width: 340px;
+    height: 340px;
+    background-image: linear-gradient(white, black 100%);
+    position: relative;
+    margin: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.thumbnail-title{
+    color : white ;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    bottom: 10%;
+    max-width: 300px;
+    margin: 0 20px;
+}
+.thumbnail-picture{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px ;
+}

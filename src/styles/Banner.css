@@ -1,0 +1,31 @@
+.bannerImg{
+    width: 1240px;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.bannerTitle{
+    width: 1240px;
+    height: 223px;
+    font-size: 48px;
+    font-family:'Montserrat', sans-serif;
+    line-height: 68.75px;
+    color : rgb(255, 255, 255);
+    z-index: 100;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 2px 0px rgba(0,0,0,0.6);
+}
+.bannerWrapper{
+    margin: auto;
+    align-self: center;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    width: 1240px;
+}

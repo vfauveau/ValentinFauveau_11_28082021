@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.navLink{
+    width: 140px;
+    height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color : #FF6060 ;
+}
+
+.logo{
+    display: block;
+    text-indent: -9999px;
+    width: 210px;
+    height: 68px;
+    background: url(../pictures/logo.svg);
+    background-size: 210px 68px;
+}
