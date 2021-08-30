@@ -4,7 +4,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .footer-title{
     color: white;
+}
+.footer-logo{
+        display: block;
+        text-indent: -9999px;
+        width: 122px;
+        height: 44px;
+        background: url(../pictures/logoWhite.svg) no-repeat;
+        background-size: 122 44px;
+        margin-bottom: 30px;
 }

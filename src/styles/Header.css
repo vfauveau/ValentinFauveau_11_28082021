@@ -24,3 +24,13 @@ nav{
     background: url(../pictures/logo.svg);
     background-size: 210px 68px;
 }
+
+
+.App-header{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    max-width: 1240px;
+  }
+  

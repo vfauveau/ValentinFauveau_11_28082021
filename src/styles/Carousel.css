@@ -1,0 +1,19 @@
+.carousel-container,.carousel-picture{
+    width: 1240px;
+    height: 415px;
+    margin: auto;
+    border-radius: 25px;
+}
+.carousel-counter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.left-arrow{
+    transform: scaleX(-1);
+}
+
+.right-arrow,.left-arrow{
+    width: 45px;
+    height: 80px;
+}
