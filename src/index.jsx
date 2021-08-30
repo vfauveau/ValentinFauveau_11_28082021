@@ -4,12 +4,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Route, Switch } from "react-router";
 import "./index.css";
 import Header from  "./components/Header"
-import Banner from "./components/Banner"
-import Footer from  "./components/Footer"
 import Error from "./components/Error"
-import Gallery from "./components/Gallery/index"
 import About from "./pages/About";
-import banner from "./pictures/banner.jpg"
+import Home from './pages/Home'
 
 ReactDOM.render(
     <React.StrictMode>
@@ -17,9 +14,7 @@ ReactDOM.render(
             <Header/>
             <Switch>
                 <Route exact path="/">
-                  <Banner src={banner} text="Chez vous, et partout ailleurs"/>
-                  <Gallery/>
-                  <Footer/>
+                  <Home></Home>
                 </Route>
                 <Route path="/Fiche-Logement/">
                 </Route>

@@ -1,28 +1,37 @@
 .collapsible{
-      width: 1023px;
-      height: 47px;
+      max-width: 1023px;
+      height: auto;
+      max-height: auto;
       background-color: #FF6060 ;
       margin: auto;
       margin-top: 31px;
       border-radius: 5px;
       margin-bottom: 33px;
 }
-.collapse-wrapper{
-      display: flex;
-      width: 1023px;
+.collapse-button{
+      display: block;
+      max-width: 1023px;
+      width: 100%;
+      border: none; 
+      outline: none;
+      text-align: left;
       height: 47px;
       background-color: #FF6060 ;
-      justify-content: space-between;
-      align-items: center;
       padding-left: 15px;
       border-radius: 5px;
       cursor: pointer;
-}
-.collapse-title{
       line-height: 34px;
       color: white;
       font-size: 24px;
+      transition: background 0.2s;
 }
+.collapse-button::after{
+      content: '\25be';
+      float: right;
+      transform: scale(1.5);
+}
+.collapse-button--active{background-color: #e25454;}
+.collapse-button--active::after{content: '\25b4'}
 .collapse-arrow {
     transform: rotate(-90deg);
     background-color: #FF6060 ;
@@ -30,10 +39,11 @@
     height: 40px;
 }
 .collapse-content{
-      display: none;
+      display: block;
+      overflow: hidden;
+      max-height: 0;
       background-color: #F6F6F6;
-      width: 1023px;
-      padding: 36px auto;
+      width: 993px;
       color : #FF6060 ;
       font-size: 24px;
 }

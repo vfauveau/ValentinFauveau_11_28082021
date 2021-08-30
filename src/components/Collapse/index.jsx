@@ -1,21 +1,29 @@
 import React from "react";
-import arrow from "../../pictures/CarouselArrow.png";
 import "../../styles/Collapse.css";
 
-function handleClick(e) {
-    e.preventDefault();
-    console.log('Le lien a été cliqué.');
+function handleClickCollapse(e) {
+    const collapseContent = e.target.nextElementSibling
+    e.target.classList.toggle('collapse-button--active')
+    if(e.target.classList.contains('collapse-button--active')){
+        collapseContent.style.maxHeight = collapseContent.scrollHeight+"px";
+        collapseContent.style.padding = "15px"
+        collapseContent.style.paddingTop = "30px"
+    }
+    else{
+        collapseContent.style.padding = 0
+        collapseContent.style.paddingTop = 0 
+        collapseContent.style.maxHeight = 0 ;
+    }
   }
 
 class Collapse extends React.Component {
     render() {
         return (
             <div className="collapsible">
-                <button className="collapse-wrapper" onClick={handleClick}>
-                    <div className="collapse-title">{this.props.title}</div>
-                    <img className="collapse-arrow" alt="collapse-arrow" src={arrow}></img>
-                </button>
-                <div className="collapse-content">{this.props.text}</div>
+                <button className="collapse-button"  onClick={handleClickCollapse}>{this.props.title}</button>
+                <div className="collapse-content">
+                    <p>{this.props.text}</p>
+                </div>
             </div>
         );
     }
