@@ -3,23 +3,26 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Route, Switch } from "react-router";
 import "./index.css";
-import Header from  "./components/Header"
-import Error from "./components/Error"
+import Header from "./components/Header";
+import Error from "./components/Error";
 import About from "./pages/About";
-import Home from './pages/Home'
+import Home from "./pages/Home";
+import Fiche from "./pages/FicheLogement";
 
 ReactDOM.render(
     <React.StrictMode>
         <Router>
-            <Header/>
+            <Header />
             <Switch>
                 <Route exact path="/">
-                  <Home></Home>
+                    <Home></Home>
                 </Route>
-                <Route path="/Fiche-Logement/">
+                <Route
+                    path="/Fiche-Logement/:id" component={Fiche}>
+
                 </Route>
                 <Route path="/About/">
-                  <About></About>
+                    <About></About>
                 </Route>
                 <Route>
                     <Error />
