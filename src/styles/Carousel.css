@@ -6,17 +6,21 @@
 }
 .carousel-container{
     display: flex;
+    flex-direction: row;
+    position: relative;
 }
 .carousel-counter{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: white;
+    color: rgb(138, 28, 28);
+    margin-left: 50%;
 }
 .left-arrow{
     transform: scaleX(-1);
 }
-
 .right-arrow,.left-arrow{
     width: 45px;
     height: 80px;
+    background-color: yellowgreen;
+    top:40%;
 }

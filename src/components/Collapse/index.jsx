@@ -7,7 +7,7 @@ function handleClickCollapse(e) {
     if(e.target.classList.contains('collapse-button--active')){
         collapseContent.style.maxHeight = collapseContent.scrollHeight+"px";
         collapseContent.style.padding = "15px"
-        collapseContent.style.paddingTop = "30px"
+        collapseContent.style.paddingTop = "27px"
     }
     else{
         collapseContent.style.padding = 0
@@ -22,7 +22,7 @@ class Collapse extends React.Component {
             <div className="collapsible">
                 <button className="collapse-button"  onClick={handleClickCollapse}>{this.props.title}</button>
                 <div className="collapse-content">
-                    <p>{this.props.text}</p>
+                    {this.props.content}
                 </div>
             </div>
         );

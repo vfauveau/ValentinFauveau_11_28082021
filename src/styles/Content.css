@@ -1,0 +1,95 @@
+.fiche-logement-name {
+    color: #ff6060;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 36px;
+    max-width: 635px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.fiche-logement-location {
+    color: #ff6060;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.fiche-logement-hostName{
+font-size: 18px;
+color: #ff6060;
+}
+.fiche-logement-hostPicture{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.fiche-logement-tagContainer {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.fiche-logement-tagContainer > * {
+    width: 115px;
+    height: 25px;
+    background-color: #ff6060;
+    color: white;
+    margin-right: 10px;
+    padding: 0;
+    border-radius: 25px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fiche-logement-equipementList {
+    list-style: none;
+}
+.fiche-logement-collaspeWrapper .collapsible{
+    width: 582px;
+}
+.fiche-logement-collaspeWrapper {
+    display: flex;
+    height: max-content;
+    flex-wrap: wrap; /* prévoir 90% pour responsive */
+}
+.fiche-logement-collaspeWrapper > * {
+    max-width: 582px;
+    height: max-content;
+    margin-left: 100px;
+}
+.fiche-logement-collaspeWrapper .collapse-button {
+    max-width: 582px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 26px;
+}
+.fiche-logement-collaspeWrapper .collapse-content {
+    max-width: 552px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.infos-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
