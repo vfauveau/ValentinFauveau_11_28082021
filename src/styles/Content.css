@@ -1,3 +1,7 @@
+.Content {
+    width: 1240px;
+    margin: auto;
+}
 .fiche-logement-name {
     color: #ff6060;
     font-weight: 500;
@@ -6,7 +10,6 @@
     -moz-osx-font-smoothing: grayscale;
     font-size: 36px;
     max-width: 635px;
-    margin-left: 100px;
     margin-top: 30px;
 }
 .fiche-logement-location {
@@ -16,23 +19,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
-    margin-left: 100px;
     margin-top: 15px;
-}
-.fiche-logement-hostName{
-font-size: 18px;
-color: #ff6060;
-}
-.fiche-logement-hostPicture{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
 }
 .fiche-logement-tagContainer {
     display: inline-flex;
     flex-direction: row;
     margin-top: 20px;
-    margin-left: 100px;
 }
 .fiche-logement-tagContainer > * {
     width: 115px;
@@ -53,19 +45,23 @@ color: #ff6060;
 .fiche-logement-equipementList {
     list-style: none;
 }
-.fiche-logement-collaspeWrapper .collapsible{
+.fiche-logement-collaspeWrapper .collapsible {
     width: 582px;
+    margin-top: 24px;
+    margin-left: 0;
+    margin-right: 0;
 }
 .fiche-logement-collaspeWrapper {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     height: max-content;
-    flex-wrap: wrap; /* prévoir 90% pour responsive */
 }
 .fiche-logement-collaspeWrapper > * {
     max-width: 582px;
     height: max-content;
-    margin-left: 100px;
 }
+
 .fiche-logement-collaspeWrapper .collapse-button {
     max-width: 582px;
     height: 52px;
@@ -87,9 +83,29 @@ li {
     vertical-align: top;
 }
 
-.infos-wrapper{
+.infos-wrapper {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 1240px;
+    margin: auto;
+}
+
+.fiche-logement-hostWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.fiche-logement-hostName {
+    font-size: 18px;
+    color: #ff6060;
+    line-height: 26px;
+    margin-right: 10px;
+}
+.fiche-logement-hostPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
 }

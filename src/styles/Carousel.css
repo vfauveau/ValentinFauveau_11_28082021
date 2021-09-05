@@ -3,6 +3,7 @@
     height: 415px;
     margin: auto;
     border-radius: 25px;
+    object-fit: none;
 }
 .carousel-container{
     display: flex;
@@ -12,15 +13,23 @@
 .carousel-counter{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: rgb(138, 28, 28);
-    margin-left: 50%;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    position: absolute;
+    bottom: 25px;
 }
 .left-arrow{
     transform: scaleX(-1);
+    left: 2%;
+}
+.right-arrow{
+    right : 2% ;
 }
 .right-arrow,.left-arrow{
-    width: 45px;
+    width: 46px;
     height: 80px;
-    background-color: yellowgreen;
     top:40%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
 }

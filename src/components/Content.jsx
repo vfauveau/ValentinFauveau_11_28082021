@@ -12,7 +12,7 @@ export default class Content extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="Content">
                 <div className="infos-wrapper">
                     <div>
                         <h1 className="fiche-logement-name">{this.logement.title}</h1>
@@ -24,9 +24,15 @@ export default class Content extends Component {
                         </div>
                     </div>
                     <div>
-                        <span className="fiche-logement-hostName">{this.logement.host.name}</span>
-                        <img className="fiche-logement-hostPicture" src={this.logement.host.picture} alt={this.logement.host.name} />
-                        <Rating rate={parseInt(this.logement.rating)}/>
+                        <div className="fiche-logement-hostWrapper">
+                            <span className="fiche-logement-hostName">{this.logement.host.name}</span>
+                            <img
+                                className="fiche-logement-hostPicture"
+                                src={this.logement.host.picture}
+                                alt={this.logement.host.name}
+                            />
+                        </div>
+                        <Rating rate={parseInt(this.logement.rating)} />
                     </div>
                 </div>
                 <div className="fiche-logement-collaspeWrapper">

@@ -6,31 +6,30 @@ class Carousel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 0,
+            count: 1,
             maxCount: logements[this.props.index].pictures.length,
-            picturesSrc: logements[this.props.index].pictures[0],
+            picturesSrc: logements[this.props.index].pictures,
         };
     }
-
-    increment = () => {
+    incrementCounter = () => {
         this.state.count < this.state.maxCount
             ? this.setState({ count: this.state.count + 1 })
-            : this.setState({ count: 0 });
+            : this.setState({ count: 1 });
     };
-    decrement = () => {
-        this.setState({
-            count: this.state.count - 1,
-        });
+    decrementCounter = () => {
+        this.state.count <= 1
+            ? this.setState({ count: this.state.maxCount })
+            : this.setState({ count: this.state.count - 1 });
     };
     render() {
         return (
             <React.Fragment>
                 <div className="carousel-container">
-                    <img className="left-arrow" alt="CarouselLeftArrow" src={arrow} onClick={this.decrement}></img>
-                    <img className="carousel-picture" src={this.state.picturesSrc} alt={this.props.name}></img>
-                    <img className="right-arrow" alt="CarouselRightArrow" src={arrow} onClick={this.increment}></img>
+                    <img className="left-arrow" alt="CarouselLeftArrow" src={arrow} onClick={this.decrementCounter}></img>
+                    <img className="carousel-picture" src={this.state.picturesSrc[this.state.count -1]} alt={this.props.name}></img>
+                    <img className="right-arrow" alt="CarouselRightArrow" src={arrow} onClick={this.incrementCounter}></img>
+                    <p className="carousel-counter">{this.state.count}/{this.state.maxCount}</p>
                 </div>
-                <p className="carousel-counter">{this.state.count}/{this.state.maxCount+1}</p>
             </React.Fragment>
         );
     }

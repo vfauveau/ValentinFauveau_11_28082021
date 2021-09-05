@@ -20,7 +20,7 @@ class Collapse extends React.Component {
     render() {
         return (
             <div className="collapsible">
-                <button className="collapse-button"  onClick={handleClickCollapse}>{this.props.title}</button>
+                <button className="collapse-button" onClick={handleClickCollapse}>{this.props.title}</button>
                 <div className="collapse-content">
                     {this.props.content}
                 </div>
