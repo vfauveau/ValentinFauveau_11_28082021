@@ -33,3 +33,16 @@
     cursor: pointer;
     z-index: 100;
 }
+
+@media (max-width : 720px) {
+    .carousel-container,.carousel-picture{
+        width: 335px;
+        height: 225px;
+        border-radius: 10px;
+    }
+    .right-arrow,.left-arrow{
+        width: 11px;
+        height: 20px;
+        top:50%;
+    }
+}

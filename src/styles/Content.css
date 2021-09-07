@@ -11,6 +11,7 @@
     font-size: 36px;
     max-width: 635px;
     margin-top: 30px;
+    font-weight: 500;
 }
 .fiche-logement-location {
     color: #ff6060;
@@ -108,4 +109,37 @@ li {
     width: 64px;
     height: 64px;
     border-radius: 50%;
+}
+
+/* Content Responsive */
+@media (min-width: 330px) and (max-width: 1240px) {
+    .Content{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .fiche-logement-collaspeWrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .fiche-logement-collaspeWrapper .collapsible {
+        width: 85%;
+    }
+}
+@media (max-width: 720px) {
+    .fiche-logement-name {
+        font-size: 18px;
+        width: 335px;
+        height: 46px;
+    }
+    .fiche-logement-location {
+        font-size: 14px;
+    }
+    .fiche-logement-tagContainer > * {
+        border-radius: 5px;
+        width: 84px;
+        height: 18px;
+        font-size: 10px;
+        overflow: hidden;
+    }
 }

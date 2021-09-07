@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Collapse.css";
+import "../styles/Collapse.css";
 
 function handleClickCollapse(e) {
     const collapseContent = e.target.nextElementSibling

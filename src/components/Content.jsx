@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logements from "../logements.json";
 import "../styles/Content.css";
-import Collapse from "./Collapse";
+import Collapse from "./Collapse.jsx";
 import Tag from "./Tag";
 import Rating from "./Rating";
 

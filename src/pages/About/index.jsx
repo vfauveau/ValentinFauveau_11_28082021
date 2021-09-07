@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../../components/Banner";
-import Collapse from "../../components/Collapse";
-import Footer from "../../components/Footer";
+import Banner from "../../components/Banner.jsx";
+import Collapse from "../../components/Collapse.jsx";
+import Footer from "../../components/Footer.jsx";
 import bannerAbout from "../../pictures/bannerAbout.jpg"
 class About extends React.Component {
     render() {

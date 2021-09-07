@@ -1,48 +1,83 @@
-.collapsible{
-      max-width: 1023px;
-      background-color: #FF6060 ;
-      margin: auto;
-      margin-top: 31px;
-      border-radius: 5px;
-      margin-bottom: 33px;
+.collapsible {
+    max-width: 1023px;
+    background-color: #ff6060;
+    margin: auto;
+    margin-top: 31px;
+    border-radius: 5px;
+    margin-bottom: 33px;
 }
-.collapse-button{
-      font-family: "Montserrat", sans-serif;
-      display: block;
-      max-width: 1023px;
-      width: 100%;
-      border: none; 
-      outline: none;
-      text-align: left;
-      height: 47px;
-      background-color: #FF6060 ;
-      padding-left: 15px;
-      border-radius: 10px;
-      cursor: pointer;
-      line-height: 34px;
-      color: white;
-      font-size: 24px;
-      transition: background 0.2s;
+.collapse-button {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    max-width: 1023px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    height: 47px;
+    background-color: #ff6060;
+    padding-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 34px;
+    color: white;
+    font-size: 24px;
+    transition: background 0.2s;
 }
-.collapse-button::after{
-      content: '\25be';
-      float: right;
-      transform: scale(1.5);
+.collapse-button::after {
+    content: "\25be";
+    float: right;
+    transform: scale(1.5);
 }
-.collapse-button--active{background-color: #e25454;}
-.collapse-button--active::after{content: '\25b4'}
+.collapse-button--active {
+    background-color: #e25454;
+}
+.collapse-button--active::after {
+    content: "\25b4";
+}
 .collapse-arrow {
     transform: rotate(-90deg);
-    background-color: #FF6060 ;
+    background-color: #ff6060;
     width: 25px;
     height: 40px;
 }
-.collapse-content{
-      display: block;
-      overflow: hidden;
-      max-height: 0;
-      background-color: #F6F6F6;
-      width: 993px;
-      color : #FF6060 ;
-      font-size: 24px;
+.collapse-content {
+    display: block;
+    overflow: hidden;
+    max-height: 0;
+    background-color: #f6f6f6;
+    width: 993px;
+    color: #ff6060;
+    font-size: 24px;
+    position: relative;
 }
+
+/* Collapse Responsive */
+@media (min-width:721px) and (max-width: 1145px){
+    .collapsible{
+        width: 85%;
+    }
+    .collapse-content{
+        width: inherit;
+    }
+}
+@media (max-width: 720px) {
+.collapsible{
+      margin-top: 21px;
+      margin-bottom: 0;
+}
+    .collapse-button,
+    .collapsible {
+        width: 335px;
+    }
+    .collapse-button {
+        font-size: 13px;
+        height: 30px;
+    }
+    .collapse-content{
+          font-size: 12px;
+          width: 305px;
+          margin-bottom: 20px;
+    }
+}
+      

@@ -1,0 +1,13 @@
+.ratings {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media (min-width: 335px) and (max-width: 1240px) {
+    .ratings {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}

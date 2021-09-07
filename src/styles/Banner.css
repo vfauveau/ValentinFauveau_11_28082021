@@ -5,7 +5,8 @@
     text-align: center;
     color: white;
     border-radius: 25px;
-    width: 93%;
+    max-width: 1240px;
+    width: 100%;
 }
 .bannerImg {
     width: inherit;
@@ -25,6 +26,32 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.6);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
     pointer-events: none;
+}
+@media (max-width : 720px){
+    .bannerTitle{
+        font-size: 24px;
+        text-align: left;
+        height: 48px;
+        line-height: normal;
+        top: 50%;
+        left: 55%;
+    }
+    .bannerWrapper,.bannerImg{
+        height: 111px;
+    }
+}
+@media (max-width: 1250px) {
+    .bannerWrapper{
+        width: 95%;
+    }
+}
+@media (max-width : 1000px) {
+    .bannerWrapper{
+        width: 93%;
+        background-color: white;
+        padding-top: 0;
+        margin-top: 0;
+    }
 }

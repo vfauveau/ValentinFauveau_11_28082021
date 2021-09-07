@@ -1,7 +1,7 @@
 import React from 'react';
-import Thumbnail from '../Thumbnail';
-import Logements from "../../logements.json"
-import "../../styles/Gallery.css"
+import Thumbnail from './Thumbnail';
+import Logements from "../logements.json"
+import "../styles/Gallery.css"
 
 class Gallery extends React.Component {
     render() {
