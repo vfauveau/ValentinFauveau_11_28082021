@@ -1,48 +1,70 @@
-.carousel-container,.carousel-picture{
+.carousel-container,
+.carousel-picture {
     width: 1240px;
     height: 415px;
     margin: auto;
     border-radius: 25px;
     object-fit: none;
 }
-.carousel-container{
+.carousel-container {
     display: flex;
     flex-direction: row;
     position: relative;
 }
-.carousel-counter{
-    font-family: 'Montserrat', sans-serif;
+.carousel-counter {
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: rgb(255, 255, 255);
     left: 50%;
     position: absolute;
     bottom: 25px;
 }
-.left-arrow{
+.left-arrow {
     transform: scaleX(-1);
     left: 2%;
 }
-.right-arrow{
-    right : 2% ;
+.right-arrow {
+    right: 2%;
 }
-.right-arrow,.left-arrow{
+.right-arrow,
+.left-arrow {
     width: 46px;
     height: 80px;
-    top:40%;
+    top: 40%;
     position: absolute;
     cursor: pointer;
     z-index: 100;
 }
-
-@media (max-width : 720px) {
-    .carousel-container,.carousel-picture{
-        width: 335px;
-        height: 225px;
+@media (min-width: 721px) and (max-width: 1240px) {
+    .carousel-container,
+    .carousel-picture {
+        width: 94%;
+    }
+    .left-arrow {
+        left: 5%;
+    }
+    .right-arrow {
+        right: 5%;
+    }
+}
+@media (max-width: 720px) {
+    .carousel-container,
+    .carousel-picture {
+        width: 94%;
+        min-width: 335px;
+        height: 255px;
         border-radius: 10px;
     }
-    .right-arrow,.left-arrow{
+    .right-arrow,
+    .left-arrow {
         width: 11px;
         height: 20px;
-        top:50%;
+        top: 50%;
+    }
+    .left-arrow {
+        left: 5%;
+    }
+    .right-arrow {
+        right: 5%;
     }
 }

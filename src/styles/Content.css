@@ -26,6 +26,7 @@
     display: inline-flex;
     flex-direction: row;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .fiche-logement-tagContainer > * {
     width: 115px;
@@ -42,6 +43,7 @@
     font-family: "Montserrat", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-top: 15px;
 }
 .fiche-logement-equipementList {
     list-style: none;
@@ -92,7 +94,7 @@ li {
     margin: auto;
 }
 
-.fiche-logement-hostWrapper {
+.fiche-logement-hostInfos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,25 +114,70 @@ li {
 }
 
 /* Content Responsive */
-@media (min-width: 330px) and (max-width: 1240px) {
-    .Content{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+@media (min-width: 320px) and (max-width: 1240px) {
+    .Content {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     .fiche-logement-collaspeWrapper {
         flex-direction: column;
-        justify-content: flex-start;
+        width: 94%;
+        margin: auto;
     }
     .fiche-logement-collaspeWrapper .collapsible {
-        width: 85%;
+        width: 94%;
+        min-width: 335px;
+    }
+
+    .fiche-logement-name {
+        font-size: 28px;
+        height: auto;
+    }
+    .infos-wrapper {
+        width: 94%;
     }
 }
 @media (max-width: 720px) {
+    .infos-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        min-width: 335px;
+    }
     .fiche-logement-name {
         font-size: 18px;
         width: 335px;
-        height: 46px;
+        height: auto;
+    }
+    .fiche-logement-collaspeWrapper .collapsible .collapse-content {
+        font-size: 12px;
+        width: auto;
+    }
+    .fiche-logement-collaspeWrapper .collapse-button {
+        min-width: 335px;
+        width: 100%;
+        margin: auto;
+    }
+    .fiche-logement-hostWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 94%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .fiche-logement-hostInfos {
+        margin-bottom: 0;
+    }
+    .fiche-logement-hostName {
+        max-width: 100px;
+        font-size: 12px;
+        margin-left: -2px;
+    }
+    .fiche-logement-hostPicture {
+        width: 32px;
+        height: 32px;
     }
     .fiche-logement-location {
         font-size: 14px;
@@ -141,5 +188,9 @@ li {
         height: 18px;
         font-size: 10px;
         overflow: hidden;
+    }
+    .fiche-logement-collaspeWrapper .collapse-button {
+        height: 30px;
+        font-size: 13px;
     }
 }

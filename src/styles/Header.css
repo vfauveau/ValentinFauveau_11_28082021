@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,19 +6,22 @@ header{
     max-width: 1240px;
     margin: auto;
 }
-nav{
+nav {
     display: flex;
     align-items: center;
 }
-.navLink{
+.navLink {
     width: 140px;
     height: 34px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
-    color : #FF6060 ;
+    color: #ff6060;
+    text-decoration: none;
 }
-
-.logo{
+.navLink-active{
+    text-decoration: underline;
+}
+.logo {
     display: block;
     text-indent: -9999px;
     width: 210px;
@@ -27,35 +30,38 @@ nav{
     background-size: 210px 68px;
 }
 
-
-.App-header{
+.App-header {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     align-items: center;
     max-width: 1240px;
-  }
-@media (min-width: 721px) and (max-width : 1280px){
-    header{
+}
+@media (min-width: 721px) and (max-width: 1280px) {
+    header {
         padding: 0 2%;
         width: 90%;
     }
 }
-@media (max-width : 720px){
-    header,.App-header{
+@media (max-width: 720px) {
+    body {
+        margin-top: 0;
+    }
+    header,
+    .App-header {
         width: 90%;
         height: 47px;
-
         align-items: flex-end;
         margin: 20px 5%;
+        margin-top: 20px;
     }
-    .navLink{
+    .navLink {
         font-size: 12px;
         width: auto;
         text-transform: uppercase;
         margin: auto 10px;
     }
-    .logo{
+    .logo {
         display: block;
         text-indent: -9999px;
         width: 145px;

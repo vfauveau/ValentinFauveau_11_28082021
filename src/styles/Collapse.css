@@ -46,26 +46,28 @@
     overflow: hidden;
     max-height: 0;
     background-color: #f6f6f6;
-    width: 993px;
+    width: auto;
     color: #ff6060;
     font-size: 24px;
     position: relative;
 }
 
 /* Collapse Responsive */
-@media (min-width:721px) and (max-width: 1145px){
-    .collapsible{
+@media (min-width: 721px) and (max-width: 1145px) {
+    .collapsible {
         width: 85%;
+        min-width: 335px;
     }
-    .collapse-content{
+    .collapse-content {
         width: inherit;
     }
 }
 @media (max-width: 720px) {
-.collapsible{
-      margin-top: 21px;
-      margin-bottom: 0;
-}
+    .collapsible {
+        margin-top: 21px;
+        margin-bottom: 0;
+        min-width: 335px;
+    }
     .collapse-button,
     .collapsible {
         width: 335px;
@@ -74,10 +76,8 @@
         font-size: 13px;
         height: 30px;
     }
-    .collapse-content{
-          font-size: 12px;
-          width: 305px;
-          margin-bottom: 20px;
+    .collapse-content {
+        font-size: 12px;
+        width: 305px;
     }
 }
-      

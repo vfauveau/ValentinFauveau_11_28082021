@@ -23,8 +23,8 @@ export default class Content extends Component {
                             })}
                         </div>
                     </div>
-                    <div>
-                        <div className="fiche-logement-hostWrapper">
+                    <div className="fiche-logement-hostWrapper">
+                        <div className="fiche-logement-hostInfos">
                             <span className="fiche-logement-hostName">{this.logement.host.name}</span>
                             <img
                                 className="fiche-logement-hostPicture"

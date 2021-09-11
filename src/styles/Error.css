@@ -1,0 +1,34 @@
+.Error-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Error-title,
+.Error-message,
+.Error-redirectLink {
+    color: #ff6060;
+}
+.Error-title {
+    font-size: 288px;
+}
+.Error-message {
+    font-size: 36px;
+}
+.Error-redirectLink {
+    font-size: 18px;
+    margin-top: 182px;
+}
+/* Responsive Error Page */
+@media (max-width: 720px) {
+    .Error-title {
+        font-size: 96px;
+    }
+    .Error-message {
+        font-size: 18px;
+        text-align: center;
+    }
+    .Error-redirectLink {
+        font-size: 14px;
+        margin-top: 133px;
+    }
+}

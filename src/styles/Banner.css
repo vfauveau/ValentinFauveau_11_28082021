@@ -29,8 +29,8 @@
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.6);
     pointer-events: none;
 }
-@media (max-width : 720px){
-    .bannerTitle{
+@media (max-width: 720px) {
+    .bannerTitle {
         font-size: 24px;
         text-align: left;
         height: 48px;
@@ -38,17 +38,24 @@
         top: 50%;
         left: 55%;
     }
-    .bannerWrapper,.bannerImg{
+    .bannerWrapper,
+    .bannerImg {
         height: 111px;
+        min-width: 335px;
+        width: 88%;
+    }
+    .bigBanner {
+        height: 223px;
     }
 }
 @media (max-width: 1250px) {
-    .bannerWrapper{
+    .bannerWrapper {
         width: 95%;
+        min-width: 350px;
     }
 }
-@media (max-width : 1000px) {
-    .bannerWrapper{
+@media (max-width: 1000px) {
+    .bannerWrapper {
         width: 93%;
         background-color: white;
         padding-top: 0;

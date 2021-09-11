@@ -6,7 +6,7 @@ class Thumbnail extends React.Component {
 
     render() {
         return (
-            <Link to={"/Fiche-Logement/" + this.props.id}>
+            <Link to={"/Logement/" + this.props.id}>
                 <div className="thumbnail-wrapper">
                     <img className="thumbnail-picture" src={this.props.cover} alt=""></img>
                     <h4 className="thumbnail-title">{this.props.title}</h4>
