@@ -8,6 +8,7 @@ import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import Fiche from "./pages/Logement.jsx";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
                     <About></About>
                 </Route>
                 <Route>
+                    <Header/>
                     <Error />
                     <Footer />
                 </Route>
