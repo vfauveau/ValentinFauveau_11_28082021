@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.32ed679f.chunk.css",
-    "main.js": "/static/js/main.7d458250.chunk.js",
-    "main.js.map": "/static/js/main.7d458250.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2287007a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2287007a.js.map",
-    "static/js/2.9dc58f16.chunk.js": "/static/js/2.9dc58f16.chunk.js",
-    "static/js/2.9dc58f16.chunk.js.map": "/static/js/2.9dc58f16.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.32ed679f.chunk.css.map": "/static/css/main.32ed679f.chunk.css.map",
-    "static/js/2.9dc58f16.chunk.js.LICENSE.txt": "/static/js/2.9dc58f16.chunk.js.LICENSE.txt",
-    "static/media/banner.0f820b85.jpg": "/static/media/banner.0f820b85.jpg",
-    "static/media/bannerAbout.796d007c.jpg": "/static/media/bannerAbout.796d007c.jpg",
-    "static/media/Header.css": "/static/media/logo.ac38b36e.svg",
-    "static/media/Footer.css": "/static/media/logoWhite.2553fb29.svg"
+    "main.css": "/valentinfauveauOC11.github.io/static/css/main.3ec9acfa.chunk.css",
+    "main.js": "/valentinfauveauOC11.github.io/static/js/main.7d458250.chunk.js",
+    "main.js.map": "/valentinfauveauOC11.github.io/static/js/main.7d458250.chunk.js.map",
+    "runtime-main.js": "/valentinfauveauOC11.github.io/static/js/runtime-main.150fc191.js",
+    "runtime-main.js.map": "/valentinfauveauOC11.github.io/static/js/runtime-main.150fc191.js.map",
+    "static/js/2.9dc58f16.chunk.js": "/valentinfauveauOC11.github.io/static/js/2.9dc58f16.chunk.js",
+    "static/js/2.9dc58f16.chunk.js.map": "/valentinfauveauOC11.github.io/static/js/2.9dc58f16.chunk.js.map",
+    "index.html": "/valentinfauveauOC11.github.io/index.html",
+    "static/css/main.3ec9acfa.chunk.css.map": "/valentinfauveauOC11.github.io/static/css/main.3ec9acfa.chunk.css.map",
+    "static/js/2.9dc58f16.chunk.js.LICENSE.txt": "/valentinfauveauOC11.github.io/static/js/2.9dc58f16.chunk.js.LICENSE.txt",
+    "static/media/banner.0f820b85.jpg": "/valentinfauveauOC11.github.io/static/media/banner.0f820b85.jpg",
+    "static/media/bannerAbout.796d007c.jpg": "/valentinfauveauOC11.github.io/static/media/bannerAbout.796d007c.jpg",
+    "static/media/Header.css": "/valentinfauveauOC11.github.io/static/media/logo.ac38b36e.svg",
+    "static/media/Footer.css": "/valentinfauveauOC11.github.io/static/media/logoWhite.2553fb29.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2287007a.js",
+    "static/js/runtime-main.150fc191.js",
     "static/js/2.9dc58f16.chunk.js",
-    "static/css/main.32ed679f.chunk.css",
+    "static/css/main.3ec9acfa.chunk.css",
     "static/js/main.7d458250.chunk.js"
   ]
 }
