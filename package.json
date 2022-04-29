@@ -1,7 +1,8 @@
 {
-  "name": "mon-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "kasa-app",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://kasatestsite.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
