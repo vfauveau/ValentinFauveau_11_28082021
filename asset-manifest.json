@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ValentinFauveau_12_28082021/static/css/main.625e1b22.chunk.css",
-    "main.js": "/ValentinFauveau_12_28082021/static/js/main.19d277e1.chunk.js",
-    "main.js.map": "/ValentinFauveau_12_28082021/static/js/main.19d277e1.chunk.js.map",
-    "runtime-main.js": "/ValentinFauveau_12_28082021/static/js/runtime-main.b206b21e.js",
-    "runtime-main.js.map": "/ValentinFauveau_12_28082021/static/js/runtime-main.b206b21e.js.map",
-    "static/js/2.7a170291.chunk.js": "/ValentinFauveau_12_28082021/static/js/2.7a170291.chunk.js",
-    "static/js/2.7a170291.chunk.js.map": "/ValentinFauveau_12_28082021/static/js/2.7a170291.chunk.js.map",
-    "index.html": "/ValentinFauveau_12_28082021/index.html",
-    "static/css/main.625e1b22.chunk.css.map": "/ValentinFauveau_12_28082021/static/css/main.625e1b22.chunk.css.map",
-    "static/js/2.7a170291.chunk.js.LICENSE.txt": "/ValentinFauveau_12_28082021/static/js/2.7a170291.chunk.js.LICENSE.txt",
-    "static/media/banner.0f820b85.jpg": "/ValentinFauveau_12_28082021/static/media/banner.0f820b85.jpg",
-    "static/media/bannerAbout.796d007c.jpg": "/ValentinFauveau_12_28082021/static/media/bannerAbout.796d007c.jpg",
-    "static/media/Header.css": "/ValentinFauveau_12_28082021/static/media/logo.a6101328.svg",
-    "static/media/Footer.css": "/ValentinFauveau_12_28082021/static/media/logoWhite.ee689fd9.svg"
+    "main.css": "/static/css/main.32ed679f.chunk.css",
+    "main.js": "/static/js/main.7d458250.chunk.js",
+    "main.js.map": "/static/js/main.7d458250.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2287007a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2287007a.js.map",
+    "static/js/2.9dc58f16.chunk.js": "/static/js/2.9dc58f16.chunk.js",
+    "static/js/2.9dc58f16.chunk.js.map": "/static/js/2.9dc58f16.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.32ed679f.chunk.css.map": "/static/css/main.32ed679f.chunk.css.map",
+    "static/js/2.9dc58f16.chunk.js.LICENSE.txt": "/static/js/2.9dc58f16.chunk.js.LICENSE.txt",
+    "static/media/banner.0f820b85.jpg": "/static/media/banner.0f820b85.jpg",
+    "static/media/bannerAbout.796d007c.jpg": "/static/media/bannerAbout.796d007c.jpg",
+    "static/media/Header.css": "/static/media/logo.ac38b36e.svg",
+    "static/media/Footer.css": "/static/media/logoWhite.2553fb29.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b206b21e.js",
-    "static/js/2.7a170291.chunk.js",
-    "static/css/main.625e1b22.chunk.css",
-    "static/js/main.19d277e1.chunk.js"
+    "static/js/runtime-main.2287007a.js",
+    "static/js/2.9dc58f16.chunk.js",
+    "static/css/main.32ed679f.chunk.css",
+    "static/js/main.7d458250.chunk.js"
   ]
 }
